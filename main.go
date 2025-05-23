@@ -7,10 +7,12 @@ import (
 
 func main() {
 	var tarefa1 = models.Tarefa{
+		Id:        1,
 		Titulo:    "Limpar casa",
 		Descricao: "Passar pano em todos os quartos",
 	}
 	var tarefa2 = models.Tarefa{
+		Id:        2,
 		Titulo:    "Lavar a louça",
 		Descricao: "Lavar e secar toda a louça",
 	}
